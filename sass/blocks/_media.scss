@@ -1,0 +1,60 @@
+@media (max-width: 991px){
+    .header {
+        &__logo {
+            margin-left: 30px;
+        }
+        &__contacts {
+            margin-right: 30px;
+        }
+    }
+    .promo {
+        background-size: auto 100%;
+
+        &__wrapper {
+            margin-right: 30px;
+        }
+    }
+    .advantages {
+        padding: 70px 30px 78px 30px;
+    }
+    .title_left {
+        text-align: center;
+    }
+    .consultation__descr {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .feed-form {
+        margin: 0 auto;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .slick-dots li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    .slick-dots button {
+        background-color: white;
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        border-color: black;
+    }
+    .catalog {
+        margin: 0 15px 50px 15px;
+        padding: 0 40px 0 40px;
+
+    }
+    .reviews__item {
+        margin-left: 30px;
+    }
+    .reviews__text {
+        margin-left: 100px;
+        padding-right: 40px;
+    }
+}
